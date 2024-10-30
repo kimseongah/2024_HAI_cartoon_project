@@ -4,7 +4,7 @@ import ImageUploader from './ImageUploader';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
-const API_BASE_URL = "https://70.26.177.149:40907";  // 기본 API URL 설정
+const API_BASE_URL = "http://70.26.177.149:40830";  // 기본 API URL 설정
 
 function App() {
   const [images, setImages] = useState([]);
